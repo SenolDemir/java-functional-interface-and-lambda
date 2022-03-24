@@ -6,6 +6,7 @@ public class ComparingObject{
 
 
     public static void main(String[] args) {
+
         List<Person> plist = new ArrayList<>();
         plist.add(new Person("John", 20));
         plist.add(new Person("Mike", 33));

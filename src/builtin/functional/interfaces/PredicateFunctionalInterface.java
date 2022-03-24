@@ -3,7 +3,7 @@ package builtin.functional.interfaces;
 import java.util.*;
 import java.util.function.Predicate;
 
-public interface PredicateFunctionalInterface {
+public class PredicateFunctionalInterface {
 
     public static void main(String[] args) {
 
@@ -12,7 +12,6 @@ public interface PredicateFunctionalInterface {
                 return true;
             return false;
         };
-
         boolean b1 = isEven.test(1002);
         System.out.println("b1 = " + b1);
 
@@ -20,11 +19,9 @@ public interface PredicateFunctionalInterface {
         System.out.println("----------------------------------------------------");
 
         List<String> list = new ArrayList<>();
-
         list.addAll((Arrays.asList("Java", "C#", "C#", "C++")));
 
         Predicate<String> isUnique = p -> Collections.frequency(list, p) ==1 ;
-
         boolean b2 = isUnique.test("C#");
         System.out.println("b2 = " + b2);
 
@@ -59,20 +56,18 @@ public interface PredicateFunctionalInterface {
                 iterator.remove();
             }
         }
-
         System.out.println(nums2);
+
 
         System.out.println("-------------------------");
 
         // The other way of using Predicate is removeIf() method
-
         List<Integer> nums3 = new ArrayList<>(Arrays.asList(10,10,10,20,20,20,30,30,30,40,40,50,50,60,70,80));
 
         //Predicate<Integer> lessThan40 = p -> p < 40;
-
         nums3.removeIf(p -> p < 40);
-
         System.out.println(nums3);
+
 
         System.out.println("------------------------------------------------");
 

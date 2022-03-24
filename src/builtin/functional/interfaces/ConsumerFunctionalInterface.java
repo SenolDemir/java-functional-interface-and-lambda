@@ -12,10 +12,11 @@ public class ConsumerFunctionalInterface {
     public static void main(String[] args) {
 
         Consumer<String> printThreeTimes = s -> System.out.println(s+s+s);
-
         printThreeTimes.accept("Cybertek");
 
+
         System.out.println("-----------------------------------------");
+
 
         Consumer<List<String>> printEach = list -> {
             for (String s : list) {
@@ -23,23 +24,24 @@ public class ConsumerFunctionalInterface {
             }
             System.out.println();
         };
+
         List<String> names = new ArrayList<>();
         names.addAll(Arrays.asList("Erick", "John","Shay","Breanna"));
-
         printEach.accept(names);
 
+
         System.out.println("--------------------------------------");
+
 
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
-
         numbers.forEach( n -> System.out.println(n*2));
+
 
         System.out.println("--------------------------------------");
 
-        List<String> elements = new ArrayList<>();
-        elements.addAll(Arrays.asList("Java", "Java", "Cybertek", "Python", "Python"));
 
+        List<String> elements = new ArrayList<>();
+        elements.addAll(Arrays.asList("Java", "Java", "C#", "Python", "Python"));
         List<String> duplicatedElements = new ArrayList<>();
 
         Predicate<String> isDublicated = p -> Collections.frequency(elements, p)>1;
@@ -49,8 +51,8 @@ public class ConsumerFunctionalInterface {
                 if(!duplicatedElements.contains(s))
                 duplicatedElements.add(s);
         });
-
         System.out.println(duplicatedElements);
+
 
         System.out.println("-----------------------------------------");
 
@@ -76,9 +78,7 @@ public class ConsumerFunctionalInterface {
             }
             System.out.println();
         };
-
         String[] array2 = {"C", "D", "K", "E", "H"};
-
         printDescendingOrder2.accept(array2);
 
 

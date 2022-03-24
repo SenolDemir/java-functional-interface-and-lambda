@@ -1,4 +1,4 @@
-package bootcamUpskills.day1;
+package custom.functional;
 
 @FunctionalInterface
 public interface StringFunctions {
