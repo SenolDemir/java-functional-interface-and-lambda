@@ -1,4 +1,4 @@
-package comparator;
+package comparator.functional;
 
 public class Person implements Comparable<Person>{
 

@@ -1,10 +1,10 @@
-package comparator;
+package comparator.functional;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ComparatorPractice {
+public class ComparatorWithLambda {
 
     public static void main(String[] args) {
 

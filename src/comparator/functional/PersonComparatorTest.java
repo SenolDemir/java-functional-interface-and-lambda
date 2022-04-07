@@ -1,8 +1,8 @@
-package comparator;
+package comparator.functional;
 
 import java.util.*;
 
-public class ComparingObject{
+public class PersonComparatorTest {
 
 
     public static void main(String[] args) {
@@ -19,6 +19,7 @@ public class ComparingObject{
         Collections.sort(plist, comp);
         System.out.println(plist);
 
+        //Comparator.comparing()
         Comparator<Person> ageComparator = Comparator.comparing(p -> p.age);
         Collections.sort(plist, ageComparator);
         System.out.println(plist);
@@ -31,10 +32,15 @@ public class ComparingObject{
         Collections.sort(plist, nameReverseComparator);
         System.out.println(plist);
 
+        // Using 2 comparing reference
         Comparator<Person> nameThenAgeComparator =
                 nameComparator.thenComparing(ageComparator);
         Collections.sort(plist, nameThenAgeComparator);
         System.out.println(plist);
+
+        ///////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 
