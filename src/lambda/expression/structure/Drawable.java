@@ -5,9 +5,9 @@ public interface Drawable {
 
     /**
         Read this first;
-        WithoutAnonymusInnerClass --> displays the classical way of implementation for Drawable.
-        WithoutLambdaExpression ----> displays the implementation for Drawable bu using anonymous class
-        WithLambdaExpression -------> displays same implementation by using Lambda
+        WithoutAnonymousClass ----> displays the classical way of implementation for Drawable.
+        WithAnonymousClass -------> displays the implementation for Drawable bu using anonymous class
+        WithLambdaExpression -----> displays same implementation by using Lambda
 
      */
 

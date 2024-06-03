@@ -1,6 +1,6 @@
 package lambda.expression.structure;
 
-public class WithoutLambdaExpression {
+public class WithAnonymousClass {
 
     public static void main(String[] args) {
         int width = 10;

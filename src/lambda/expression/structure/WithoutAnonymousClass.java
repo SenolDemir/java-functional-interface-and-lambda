@@ -1,6 +1,6 @@
 package lambda.expression.structure;
 
-public class WithoutAnonymusInnerClass implements Drawable{
+public class WithoutAnonymousClass implements Drawable{
 
     int width = 10;
     @Override
@@ -10,7 +10,7 @@ public class WithoutAnonymusInnerClass implements Drawable{
 
     public static void main(String[] args) {
 
-        Drawable drawable = new WithoutAnonymusInnerClass();
+        Drawable drawable = new WithoutAnonymousClass();
         drawable.draw();
     }
 

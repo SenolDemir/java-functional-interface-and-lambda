@@ -7,9 +7,9 @@ public class WithLambdaExpression {
         int width = 10;
 
         //with lambda
-        Drawable d2 = () -> {
+        Drawable drawer = () -> {
             System.out.println("Drawing " + width);
         };
-        d2.draw();
+        drawer.draw();
     }
 }
