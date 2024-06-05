@@ -1,9 +1,9 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.util.Arrays;
 import java.util.function.Function;
 
-public class FunctionFunctionalInterface {
+public class FunctionInterface {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class FunctionFunctionalInterface {
             return result;
         };
 
-        System.out.println(reverse.apply("Cybertek"));
+        System.out.println(reverse.apply("Hello Java"));
 
 
         System.out.println("---------------------------------------");

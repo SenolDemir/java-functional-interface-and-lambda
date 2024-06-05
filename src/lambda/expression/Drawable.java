@@ -1,4 +1,4 @@
-package lambda.expression.structure;
+package lambda.expression;
 
 @FunctionalInterface  //It is optional
 public interface Drawable {

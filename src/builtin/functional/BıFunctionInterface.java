@@ -1,9 +1,9 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.util.*;
 import java.util.function.BiFunction;
 
-public class BıFunctionFunctionalInterface {
+public class BıFunctionInterface {
 
     public static void main(String[] args) {
 

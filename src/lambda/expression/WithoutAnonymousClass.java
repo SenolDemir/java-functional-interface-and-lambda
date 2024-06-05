@@ -1,4 +1,4 @@
-package lambda.expression.structure;
+package lambda.expression;
 
 public class WithoutAnonymousClass implements Drawable{
 

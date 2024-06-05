@@ -1,11 +1,11 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.BiConsumer;
 
-public class BiConsumerFunctionalInterface {
+public class BiConsumerInterface {
 
     public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class BiConsumerFunctionalInterface {
             System.out.println();
         };
 
-        printMultipleTimes.accept("Cybertek", 4);
+        printMultipleTimes.accept("Bootcamp", 4);
 
         System.out.println("------------------------------------------");
 

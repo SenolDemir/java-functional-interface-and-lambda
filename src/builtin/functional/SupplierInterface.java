@@ -1,16 +1,16 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.function.Supplier;
 
-public class SupplierFunctionalInterface {
+public class SupplierInterface {
 
     public static void main(String[] args) {
 
-        Supplier<String> returnCybertek = () -> "Cybertek";
+        Supplier<String> returnJava = () -> "Java";
 
-        System.out.println( returnCybertek.get());
+        System.out.println( returnJava.get());
 
         System.out.println("---------------------------------------------");
 

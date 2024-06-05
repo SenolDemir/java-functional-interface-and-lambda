@@ -1,4 +1,4 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.BiPredicate;
 
-public class BiPredicateFunctionalInterface {
+public class BiPredicateInterface {
 
     public static void main(String[] args) {
 

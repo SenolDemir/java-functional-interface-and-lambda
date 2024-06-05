@@ -1,9 +1,9 @@
-package builtin.functional.interfaces;
+package builtin.functional;
 
 import java.util.*;
 import java.util.function.Predicate;
 
-public class PredicateFunctionalInterface {
+public class PredicateInterface {
 
     public static void main(String[] args) {
 
